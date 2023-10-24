@@ -4,7 +4,7 @@
 - the instructor makes a Word document in a specific drive folder containing the lesson he wants to explain
 - the instructor makes comments on the work (text/audio) and handles its format and colors
 - give it a name
-  \t
+  \tab
 
 - a student who wants to see the lesson will go to our website
 - type the name ("Code") in the search field and Volaa 
