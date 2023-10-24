@@ -1,0 +1,46 @@
+@import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Indie+Flower&family=Lilita+One&family=M+PLUS+Rounded+1c:wght@500&display=swap');
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeInUp;
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+    font-size: 35px;
+    color: white;
+    z-index: 10;
+    position: relative;
+    font-family: 'Lilita One', cursive;
+  }
+
+  @for $i from 1 through 95 {
+    .text-animate._#{$i} {
+      animation-delay: #{$i / 7}s;
+    }
+  }
+  
+  // handle different screens 
+  @media (max-width: 1245px) {
+    @for $i from 1 through 95 {
+      .text-animate._#{$i} {
+        font-size: 24px !important;
+      }
+    }
+  }
+  @media (max-width: 769px) {
+    @for $i from 1 through 95 {
+      .text-animate._#{$i} {
+        font-size: 22px !important;
+      }
+    }
+  }
+  @media (max-width: 550px) {
+    @for $i from 1 through 95 {
+      .text-animate._#{$i} {
+        font-size: 13px !important;
+      }
+    }
+  }
+ 
