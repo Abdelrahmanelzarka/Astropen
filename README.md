@@ -5,6 +5,10 @@
 - the instructor makes comments on the work (text/audio) and handles its format and colors
 - give it a name.
   
+I really like using Markdown.
+
+I think I'll use it to format all of my documents from now on.
+
 
 - a student who wants to see the lesson will go to our website
 - type the name ("Code") in the search field and Volaa 
