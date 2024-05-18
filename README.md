@@ -15,6 +15,7 @@
 <br>
 
 ## Try it now from here  https://asteropen.vercel.app/
+test it with "123456"
 <br>
 
 * For any questions please don't hesitate to contact me at : abdelrahmanelzarka18@gmail.com
