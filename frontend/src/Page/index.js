@@ -134,7 +134,7 @@ function Page() {
     audio.controlsList="nodownload"
     const src=document.createElement('source')
     link=link.substring(link.search("/d/")+3,link.length)
-    link="https://docs.google.com/uc?export=download&id="+link
+    link="https://drive.google.com/file/d/"+link+"preveiw"
     src.src=link
    audio.appendChild(src)
  
